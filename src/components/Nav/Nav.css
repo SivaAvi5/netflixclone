@@ -1,0 +1,35 @@
+.nav {
+  position: fixed;
+  top: 0;
+  padding: 20px;
+  width: 100%;
+  height: 30px;
+  z-index: 100;
+  transition: all 0.5s ease-in;
+}
+
+.nav__contents {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__logo {
+  position: fixed;
+  left: 0;
+  padding: 0rem 1.4rem;
+  color: #e50914;
+  font-size: 2.4rem;
+  text-shadow: 2px 2px 5px black;
+  transform-origin: 0 0;
+  transform: scaleX(80) rotateY(89.5deg);
+}
+
+.nav__avatar {
+  position: fixed;
+  cursor: pointer;
+  right: 20px;
+  width: 30px;
+}
+.nav__black {
+  background-color: black;
+}

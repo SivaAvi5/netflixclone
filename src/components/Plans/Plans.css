@@ -1,0 +1,32 @@
+.plans{
+    display: flex;
+    flex-direction: column;
+}
+
+.plans__subscription{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 2rem;
+}
+
+span{
+    font-size: .6rem;
+}
+
+p{
+    font-size: 1rem;
+}
+.sub__btn{
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    color: white;
+    background-color: #e50914;
+    border: none;
+    border-radius: .4rem;
+    max-height: 1rem;
+    padding: 1rem .8rem;
+    cursor: pointer;
+}

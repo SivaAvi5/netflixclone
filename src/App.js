@@ -25,8 +25,8 @@ const App = () => {
       }
     })
     return unsubscribe
-  },[])
-  console.log('user',user)
+  },[dispatch])
+
 
 
   return (

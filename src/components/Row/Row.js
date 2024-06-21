@@ -18,7 +18,7 @@ const Row = ({ title, fetchUrl, isLarge = false }) => {
       return request;
     };
     fetchData();
-  }, [fetchUrl]);
+  }, [fetchUrl,isLarge]);
 
   // const opts = {
   //   height: "390",

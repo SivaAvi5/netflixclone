@@ -6,7 +6,7 @@ import YouTube from "react-youtube";
 const Row = ({ title, fetchUrl, isLarge = false }) => {
   const [movies, setMovies] = useState([]);
   const [trailerUrl, setTrailerUrl] = useState("");
-  const YOUTUBE_API_KEY = "AIzaSyC18wu8GFtrqNVOqQq_tg9IxGKBMppJS1I"; // Replace with your YouTube API key
+  const YOUTUBE_API_KEY = "AIzaSyC18wu8GFtrqNVOqQq_tg9IxGKBMppJS1I"; 
 
   const base_url = "https://image.tmdb.org/t/p/original/";
 

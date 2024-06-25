@@ -322,6 +322,11 @@
  * @license MIT
  */
 
+/**
+* @link https://github.com/gajus/sister for the canonical source repository
+* @license https://github.com/gajus/sister/blob/master/LICENSE BSD 3-Clause
+*/
+
 /** @license
          Copyright The Closure Library Authors.
          SPDX-License-Identifier: Apache-2.0
